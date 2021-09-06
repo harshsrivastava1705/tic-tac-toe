@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+    <script type="text/javascript" src="anim.js"></script>
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body onload="pla()">
+    <h1>Tic-Tac-Toe</h1>
+    <div id="game">
+        <div id="board">
+        <section id="1" onclick="put(1)" class="cell"></section><section  onclick="put(2)" id="2" class="cell"></section><section onclick="put(3)"class="cell" id="3"></section>
+        </div>
+        <div id="board">
+        <section class="cell" onclick="put(4)" id="4"></section><section  class="cell" onclick="put(5)" id="5"></section><section class="cell" onclick="put(6)" id="6"></section>
+        </div>
+        <div id="board">
+        <section class="cell" onclick="put(7)" id="7"  ></section><section onclick="put(8)"id="8" class="cell"></section ><section onclick="put(9)" class="cell" id="9"></section>
+        </div>
+    </div>
+    <div id="result">
+
+    </div>
+    <button onclick="reset()">Reset</button>
+</body>
+
+</html>

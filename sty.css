@@ -1,0 +1,98 @@
+#parentwrap {  }
+body
+{
+    text-align: center;
+    padding: 2%;
+    background-color: rgba(0, 0,0, 0.15);
+
+}
+h1{
+ 
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    background-color:rgba(0,0,0,.10);
+    font-size: 5rem;
+    box-shadow: rgba(0,0,0,.25);
+}
+section
+{
+    vertical-align: bottom;
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    height: 5rem;
+    cursor:pointer;
+    float: none;
+    color: white;
+  
+    font-size: 2rem;
+}
+div
+{
+    padding: 0%;
+width: 100%;
+}
+.cell:not(:empty) 
+{
+    color: rgba(0,0,0,1);
+}
+
+#game>:nth-child(1)
+{
+    border-bottom-color:black;
+    border-bottom-style: solid;
+    border-bottom: 20pxs;
+}
+#game>:nth-child(3)
+{
+    border-top-color:black;
+    border-top-style: solid;
+    border-top: 20pxs
+}
+#board>:nth-child(1)
+{
+    border-right-color:black;
+    border-right-style: solid;
+    border-right: 20pxs;
+}
+#board>:nth-child(3)
+{
+    border-left-color:black;
+    border-left-style: solid;
+    border-left: 20pxs;
+}
+button{
+    margin-top: 2%;
+    float:right;
+    width: 10%;
+    height: 40px;
+}
+#board
+{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
+    background-color: rgba(0, 0,0, 0.1);
+}
+#result
+{
+    font-size: 3rem;
+    margin-top: 2%;
+}
+#details
+{
+    margin-top: 5%;
+    padding: 5%;
+    width: 90%;
+    background-color: rgba(0,0,0,.15);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
+    padding-bottom: 9%;
+}
+button
+{
+    border-radius: 10%;
+    background-color: rgba(0,0,0,.05);
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: rgba(0,0,0,.01);
+}
